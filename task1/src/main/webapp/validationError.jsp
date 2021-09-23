@@ -7,6 +7,6 @@
         <title>Students</title>
     </head>
     <body>
-        Validation error: <%out.print(request.getAttribute("errorMessage"))%>"/>
+        Validation error: ${errorMessage}
     </body>
 </html>
