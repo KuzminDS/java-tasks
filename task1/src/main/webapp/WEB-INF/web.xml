@@ -1,0 +1,52 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <servlet>
+        <servlet-name>all</servlet-name>
+        <servlet-class>servlets.StudentsGetAllServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>all</servlet-name>
+        <url-pattern>/all</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>excellent</servlet-name>
+        <servlet-class>servlets.StudentsGetExcellentServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>excellent</servlet-name>
+        <url-pattern>/excellent</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>blockchain</servlet-name>
+        <servlet-class>servlets.StudentsGetWithBlockChainServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>blockchain</servlet-name>
+        <url-pattern>/blockchain</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>add</servlet-name>
+        <servlet-class>servlets.StudentsAddServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>add</servlet-name>
+        <url-pattern>/add</url-pattern>
+    </servlet-mapping>
+
+    <filter>
+        <filter-name>validation</filter-name>
+        <filter-class>filters.ValidationFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>validation</filter-name>
+        <url-pattern>/add</url-pattern>
+    </filter-mapping>
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>
