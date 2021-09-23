@@ -25,6 +25,6 @@ public class StudentsService {
     }
 
     public boolean exists(String studentName) {
-        return StudentDao.getStudents().stream().anyMatch(s -> s.getName() == studentName);
+        return StudentDao.getStudents().stream().anyMatch(s -> s.getName().equals(studentName));
     }
 }
