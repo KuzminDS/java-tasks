@@ -1,4 +1,4 @@
-package di;
+package config;
 
 import dao.IAppointmentDao;
 import dao.IDoctorDao;
@@ -10,7 +10,6 @@ import dao.impl.RealUserDaoImpl;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Scope;
 import services.*;
 
 @Configuration
