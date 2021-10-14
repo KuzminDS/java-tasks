@@ -1,7 +1,7 @@
 C:\Users\Dmitrii_Kuzmin\Desktop\ssu\Java\java-tasks\spring-tasks\src\main\java\dao\impl\RealUserDaoImpl.java
 C:\Users\Dmitrii_Kuzmin\Desktop\ssu\Java\java-tasks\spring-tasks\src\main\java\entities\Human.java
-C:\Users\Dmitrii_Kuzmin\Desktop\ssu\Java\java-tasks\spring-tasks\src\main\java\mvc\controller\UserController.java
 C:\Users\Dmitrii_Kuzmin\Desktop\ssu\Java\java-tasks\spring-tasks\src\main\java\entities\Session.java
+C:\Users\Dmitrii_Kuzmin\Desktop\ssu\Java\java-tasks\spring-tasks\src\main\java\controller\HomeController.java
 C:\Users\Dmitrii_Kuzmin\Desktop\ssu\Java\java-tasks\spring-tasks\src\main\java\services\IDoctorService.java
 C:\Users\Dmitrii_Kuzmin\Desktop\ssu\Java\java-tasks\spring-tasks\src\main\java\services\AppointmentService.java
 C:\Users\Dmitrii_Kuzmin\Desktop\ssu\Java\java-tasks\spring-tasks\src\main\java\dao\fake\DoctorDao.java
@@ -15,9 +15,7 @@ C:\Users\Dmitrii_Kuzmin\Desktop\ssu\Java\java-tasks\spring-tasks\src\main\java\c
 C:\Users\Dmitrii_Kuzmin\Desktop\ssu\Java\java-tasks\spring-tasks\src\main\java\dao\fake\AppointmentDao.java
 C:\Users\Dmitrii_Kuzmin\Desktop\ssu\Java\java-tasks\spring-tasks\src\main\java\dao\IAppointmentDao.java
 C:\Users\Dmitrii_Kuzmin\Desktop\ssu\Java\java-tasks\spring-tasks\src\main\java\entities\MedicalCard.java
-C:\Users\Dmitrii_Kuzmin\Desktop\ssu\Java\java-tasks\spring-tasks\src\main\java\mvc\config\WebConfig.java
 C:\Users\Dmitrii_Kuzmin\Desktop\ssu\Java\java-tasks\spring-tasks\src\main\java\entities\Appointment.java
 C:\Users\Dmitrii_Kuzmin\Desktop\ssu\Java\java-tasks\spring-tasks\src\main\java\dao\fake\UserDao.java
 C:\Users\Dmitrii_Kuzmin\Desktop\ssu\Java\java-tasks\spring-tasks\src\main\java\services\DoctorService.java
-C:\Users\Dmitrii_Kuzmin\Desktop\ssu\Java\java-tasks\spring-tasks\src\main\java\mvc\config\ApplicationInit.java
 C:\Users\Dmitrii_Kuzmin\Desktop\ssu\Java\java-tasks\spring-tasks\src\main\java\services\IUserService.java
